@@ -1,0 +1,69 @@
+<%- include('includes/head') -%>
+<%- include('includes/nav') -%>
+
+
+<section class="login">
+    <div class="container">
+        <div class="login__wrapper p-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="heading__secondary">
+                        <img src="images/logo-mini.png" alt=""><br>
+                        <h2>Signup here</h2>
+                    </span>
+
+                    <form class="mt-5">
+                        <div class="form-group">
+                            <input type="email" class="form-control input-custom" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Name">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control input-custom" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control input-custom" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Mobile No.">
+                            <i class="fa fa-mobile-alt"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-custom" id="exampleInputPassword1"
+                                placeholder="Password">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-custom" id="exampleInputPassword1"
+                                placeholder="Confirm Password">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <button type="submit" class="btn btn-block button-custom mt-5">Login</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="signup_right">
+                        <h1>OR</h1>
+                        <div class="signup__buttons">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block button-custom button-fb">Login with facebook</button>
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block button-custom button-tw">Login with twitter</button>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block button-custom button-gg">Login with google</button>
+                                <i class="fab fa-google"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('includes/footer') -%>
+<%- include('includes/end') -%>
