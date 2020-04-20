@@ -7,7 +7,7 @@ const database = new Sequelize(
     DB_PASSWORD || 'mahiara',
     { 
         dialect: 'mysql', 
-        host: DB_HOST || localhost
+        host: DB_HOST || 'localhost'
     }
 );
 
