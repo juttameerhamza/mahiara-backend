@@ -15,3 +15,10 @@ exports.getSignup = (req, res) => {
         path: '/'
     });
 }
+
+exports.getProduct = (req, res) => {
+    res.render('product', {
+        title: 'Sign Up',
+        path: '/'
+    });
+}
