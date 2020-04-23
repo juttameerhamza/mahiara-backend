@@ -22,3 +22,10 @@ exports.getProduct = (req, res) => {
         path: '/'
     });
 }
+
+exports.getCollection = (req, res) => {
+    res.render('collection', {
+        title: 'Sign Up',
+        path: '/'
+    });
+}
